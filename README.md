@@ -1,7 +1,7 @@
 Bolt Taxonomy Lister
 ======================
 
-Bolt extension that will return a set of the specified taxonomy that is associated with the records
+A Bolt extension that will return a set of specified taxonomy given a list of records.
 
 Quick start
 -------
