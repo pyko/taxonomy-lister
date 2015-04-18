@@ -1,5 +1,5 @@
 {
-    "name": "bolt/pyko/taxonomy-lister",
+    "name": "pyko/taxonomy-lister",
     "description": "Given a list of records, return a set of the specified taxonomy that is associated with the records",
     "type": "bolt-extension",
     "keywords": ["taxonomy", "taxonomies", "tags", "categories", "chapters", "list", "related"],
