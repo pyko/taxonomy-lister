@@ -21,8 +21,10 @@ class Extension extends BaseExtension
       $result = [];
       $i = 0;
       foreach ( $records as $record ) {
-         $result[$i] = array_values($record->taxonomy[$taxonomy_slug])[0];
-         $i += 1;
+         foreach ( array_values($record->taxonomy[$taxonomy_slug]) as $taxonomy ) {
+            $result[$i] = $taxonomy;
+            $i += 1;
+         }
       }
 
       $result = array_unique($result);
